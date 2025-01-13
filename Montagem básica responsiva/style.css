@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.FLUXODEJOBS{
+    background: #FAFAFA;
+    width: 1440px;
+    height: 1394px;
+}
+
+
+footer{
+    display: flex;
+    width: 1167px;
+    padding: 32px 0px 16px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-top: 1px solid #DEE2E6;
+}
