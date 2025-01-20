@@ -26,6 +26,17 @@
         align-items: center;
         gap: 4px;
     }
+    .Bill .card2 {
+    margin-top: -362px;
+    margin-left: 432px;
+    width: 769px;
+    height: 320px;
+    padding: 16px;
+    gap: 24px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+}
 }
 
 .Bill .content {
@@ -46,17 +57,7 @@
     margin-top: 2px;
 }
 
-.Bill .card2 {
-    margin-top: -362px;
-    margin-left: 432px;
-    width: 769px;
-    height: 320px;
-    padding: 16px;
-    gap: 24px;
-    border-radius: 5px;
-    background: #FFF;
-    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
-}
+
 
 .Bill .card2 span {
     font-weight: 700;
