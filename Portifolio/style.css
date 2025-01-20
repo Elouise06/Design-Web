@@ -63,6 +63,7 @@ footer .linha2{
     display: flex;
     width: 1264px;
     border-bottom: 1px solid #DEE2E6;
+    margin-bottom: 20px;
 }
 
 footer{
