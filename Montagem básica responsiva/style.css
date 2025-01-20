@@ -61,8 +61,8 @@ main{
 
 footer .linha2{
     display: flex;
-    width: 1250px;
-    border-bottom: #DEE2E6;
+    width: 100%;
+    border-bottom: 1px solid #DEE2E6;
 }
 
 footer span{
