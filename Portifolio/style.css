@@ -61,10 +61,18 @@ main{
 
 footer .linha2{
     display: flex;
-    width: 100%;
+    width: 1264px;
     border-bottom: 1px solid #DEE2E6;
 }
 
+footer{
+    display: flex;
+    width: 1167px;
+    padding: 32px 0px 16px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
 footer span{
     color: #6C757D;
     font-size: 16px;
