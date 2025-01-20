@@ -63,7 +63,7 @@ footer .linha2{
     display: flex;
     width: 1264px;
     border-bottom: 1px solid #DEE2E6;
-    margin-bottom: 20px;
+
 }
 
 footer{
@@ -80,4 +80,5 @@ footer span{
     font-size: 16px;
     font-weight: 400;
     line-height: 120%;
+    margin-top: 20px;
 }
