@@ -3,7 +3,7 @@ body{
     justify-content: center;
     margin: 0;
     padding: 0;
-    height: 1394px;
+    height: auto;
     background: #fafafa;
     font-family: Lato;
 }
@@ -45,7 +45,6 @@ body{
     color: #FFC107;
     margin-top: -28px;
     margin-left: 160px;
-
 }
 
 .cards div{
@@ -60,4 +59,68 @@ body{
 }
 .cards div span{
     margin-top: -56px;
+}
+
+/* Media Queries para responsividade */
+
+@media (max-width: 1200px) {
+    .cards {
+        width: 45%;
+        margin: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cards {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .Bill {
+        width: 100%;
+        margin: 50px 0;
+    }
+
+    .publicados h1 {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    main {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    footer {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        flex-direction: column;
+    }
+
+    .Bill {
+        margin: 10px;
+    }
+
+    .publicados h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .cards {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    footer span {
+        font-size: 14px;
+    }
 }

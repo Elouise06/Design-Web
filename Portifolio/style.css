@@ -1,5 +1,5 @@
 .FLUXODEJOBS{
-    margin-left: 100px ;
+    margin-left: 100px;
 }
 .Bill{
     width: 369px;
@@ -63,7 +63,6 @@ footer .linha2{
     display: flex;
     width: 1264px;
     border-bottom: 1px solid #DEE2E6;
-
 }
 
 footer{
@@ -81,4 +80,86 @@ footer span{
     font-weight: 400;
     line-height: 120%;
     margin-top: 20px;
+}
+
+/* Media Queries para responsividade */
+
+@media (max-width: 1200px) {
+    .FLUXODEJOBS {
+        margin-left: 50px;
+    }
+
+    .Bill {
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    .publicados h1 {
+        font-size: 22px;
+        margin-top: 60px;
+    }
+
+    .cards {
+        width: 45%;
+        margin: 15px;
+    }
+
+    footer .linha2 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .FLUXODEJOBS {
+        margin-left: 10px;
+    }
+
+    .Bill {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .publicados h1 {
+        font-size: 20px;
+        margin-top: 40px;
+    }
+
+    main {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    footer {
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .FLUXODEJOBS {
+        margin-left: 0;
+    }
+
+    .Bill {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .publicados h1 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .cards {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    footer span {
+        font-size: 14px;
+    }
 }
