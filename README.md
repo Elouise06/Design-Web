@@ -11,4 +11,4 @@ atividades:
         fim: 17/01/2025 
     3-Atividade 1 - Publicar portfólio no Vercel
         inicio: 20/01/25 15:24
-        fim: 20/01/25
+        fim: 20/01/25 22:05
