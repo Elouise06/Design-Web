@@ -1,454 +1,115 @@
-.AWE-FLUXO-DE-JOBS {
-    background-color: #fafafa;
+/*Container perfil e profile*/
+.container{
     display: flex;
-    width: 100%;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .div {
-    background-color: #fafafa;
-    width: 1440px;
-    height: 1394px;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .name {
-    align-items: flex-start;
-    padding: 0px 0px 16px;
-    top: 505px;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
+    flex-flow: row wrap;
+}
+/*Perfil*/
+.container .container-perfil{
     display: flex;
-    width: 1167px;
-    gap: 4px;
-    border-color: #dee2e6;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .text-wrapper {
-    position: relative;
-    width: fit-content;
-    margin-top: -1.00px;
-    font-family: "Lato", Helvetica;
-    font-weight: 700;
-    color: var(--neutrasaco);
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: 28.8px;
-    white-space: nowrap;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .div-wrapper {
-    align-items: center;
-    justify-content: center;
-    padding: 32px 0px 16px;
-    top: 1293px;
-    border-top-width: 1px;
-    border-top-style: solid;
-    display: flex;
-    width: 1167px;
-    gap: 4px;
-    position: absolute;
-    left: 138px;
-    border-color: #dee2e6;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .p {
-    position: relative;
-    width: fit-content;
-    margin-top: -1.00px;
-    font-family: "Lato", Helvetica;
-    font-weight: 400;
-    color: #6c757d;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: 19.2px;
-    white-space: nowrap;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .card {
-    display: flex;
-    flex-direction: column;
     width: 369px;
     height: 344px;
-    align-items: center;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    flex-direction: column;
     justify-content: center;
-    position: absolute;
-    top: 90px;
-    left: 135px;
-    background-color: var(--neutraswhite);
+    align-items: center;
     border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0px 4px 10px #0000001a;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .figure {
-    height: 260px;
-    background-image: url(https://c.animaapp.com/q0tIf96e/img/figure-4@2x.png);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    background-size: cover;
-    background-position: 50% 50%;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .foto {
-    position: relative;
-    flex: 1;
-    align-self: stretch;
-    width: 100%;
-    flex-grow: 1;
-    object-fit: cover;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .content {
-    gap: 8px;
+    background: #ffff;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+}
+.perfil-title{
     padding: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    flex: 0 0 auto;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .text-wrapper-2 {
-    position: relative;
-    align-self: stretch;
-    margin-top: -1.00px;
-    font-family: "Lato", Helvetica;
-    font-weight: 700;
+    padding-top: 0;
+}
+.container .container-perfil h2{
     color: #495057;
     font-size: 24px;
-    letter-spacing: 0;
-    line-height: 24px;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .text-wrapper-3 {
-    position: relative;
+    font-weight: 700;
+    line-height: 100%;
     align-self: stretch;
-    font-family: "Lato", Helvetica;
-    font-weight: 400;
-    color: #6c757d;
+}
+.container .container-perfil div{
+    color: #6C757D;
     font-size: 16px;
-    letter-spacing: 0;
-    line-height: 16px;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .card-2 {
-    width: 270px;
-    min-height: 284px;
-    align-items: center;
-    justify-content: center;
-    top: 584px;
-    left: 135px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0px 4px 10px #0000001a;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .foto-wrapper {
-    display: flex;
-    flex-direction: column;
-    height: 165px;
-    align-items: flex-start;
-    gap: 8px;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    background-image: url(https://c.animaapp.com/q0tIf96e/img/figure-4@2x.png);
-    background-size: cover;
-    background-position: 50% 50%;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .content-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 12px;
-    padding: 16px;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    flex: 0 0 auto;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .frame {
-    flex-direction: column;
-    gap: 8px;
-    display: flex;
-    align-items: flex-start;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    flex: 0 0 auto;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .text-wrapper-4 {
-    position: relative;
-    align-self: stretch;
-    margin-top: -1.00px;
-    font-family: var(--awe-heading-3-font-family);
-    font-weight: var(--awe-heading-3-font-weight);
-    color: #495057;
-    font-size: var(--awe-heading-3-font-size);
-    letter-spacing: var(--awe-heading-3-letter-spacing);
-    line-height: var(--awe-heading-3-line-height);
-    font-style: var(--awe-heading-3-font-style);
-  }
-  
-  .AWE-FLUXO-DE-JOBS .text-wrapper-5 {
-    position: relative;
-    align-self: stretch;
-    font-family: "Lato", Helvetica;
     font-weight: 400;
-    color: #0d6efd;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: 16px;
-    text-decoration: underline;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .card-3 {
-    width: 270px;
-    min-height: 284px;
-    align-items: center;
-    justify-content: center;
-    top: 903px;
-    left: 135px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0px 4px 10px #0000001a;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .card-4 {
-    width: 270px;
-    height: 284px;
-    align-items: center;
-    justify-content: space-between;
-    top: 584px;
-    left: 435px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0px 4px 10px #0000001a;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .card-5 {
-    width: 270px;
-    height: 284px;
-    align-items: center;
-    justify-content: space-between;
-    top: 903px;
-    left: 435px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0px 4px 10px #0000001a;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .card-6 {
-    width: 270px;
-    min-height: 284px;
-    align-items: center;
-    justify-content: center;
-    top: 584px;
-    left: 736px;
-    overflow: hidden;
-    border: 2px solid;
-    border-color: #ffc107;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0px 4px 10px #0000001a;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .img-wrapper {
-    height: 165px;
-    border: 1px solid;
-    border-color: #dee2e6;
-    background-image: url(https://c.animaapp.com/q0tIf96e/img/figure-8@2x.png);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-    position: relative;
+    line-height: 100%;
     align-self: stretch;
-    width: 100%;
-    background-size: cover;
-    background-position: 50% 50%;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .frame-2 {
-    justify-content: space-between;
+    margin-top: -8px;
+}
+/*Profile*/
+.container .container-profile{
     display: flex;
-    align-items: flex-start;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    flex: 0 0 auto;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .text-wrapper-6 {
-    position: relative;
-    width: 126px;
-    margin-top: -1.00px;
-    font-family: "Lato", Helvetica;
-    font-weight: 400;
-    color: #0d6efd;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: 16px;
-    text-decoration: underline;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .text-wrapper-7 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1.00px;
-    font-family: "Lato", Helvetica;
-    font-weight: 400;
-    color: #ffc107;
-    font-size: 16px;
-    text-align: right;
-    letter-spacing: 0;
-    line-height: 16px;
-    text-decoration: underline;
-    white-space: nowrap;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .card-7 {
-    width: 270px;
-    min-height: 284px;
-    align-items: center;
-    justify-content: center;
-    top: 584px;
-    left: 1035px;
-    overflow: hidden;
-    border: 2px solid;
-    border-color: #ffc107;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0px 4px 10px #0000001a;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .card-8 {
-    width: 270px;
-    height: 284px;
-    align-items: center;
-    justify-content: center;
-    top: 903px;
-    left: 735px;
-    overflow: hidden;
-    border: 2px solid;
-    border-color: #ffc107;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0px 4px 10px #0000001a;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .image-wrapper {
-    height: 165px;
-    margin-top: -8.00px;
-    border: 1px solid;
-    border-color: #dee2e6;
-    background-image: url(https://c.animaapp.com/q0tIf96e/img/figure-8@2x.png);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    background-size: cover;
-    background-position: 50% 50%;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .image {
-    position: relative;
-    width: 270px;
-    height: 148px;
-    object-fit: cover;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .card-9 {
-    width: 270px;
-    height: 284px;
-    align-items: center;
-    justify-content: center;
-    top: 903px;
-    left: 1035px;
-    overflow: hidden;
-    border: 2px solid;
-    border-color: #ffc107;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    background-color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0px 4px 10px #0000001a;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .content-wrapper {
     width: 769px;
-    height: 344px;
-    align-items: flex-start;
-    gap: 24px;
+    height: 312px;
     padding: 16px;
-    top: 90px;
-    left: 536px;
-    display: flex;
     flex-direction: column;
-    position: absolute;
-    background-color: var(--neutraswhite);
+    gap: 24px;
     border-radius: 5px;
-    box-shadow: 0px 4px 10px #0000001a;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .content-3 {
-    gap: 16px;
-    padding: 4px;
+    background: #ffff;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+}
+/*projetos*/
+.projetos .projetos-title{
     display: flex;
-    flex-direction: column;
+    width: 1167px;
+    padding-bottom: 16px;
+    margin: 71px 0 50px;
     align-items: flex-start;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    flex: 0 0 auto;
-  }
-  
-  .AWE-FLUXO-DE-JOBS .text-wrapper-8 {
-    position: relative;
-    align-self: stretch;
-    font-family: "Lato", Helvetica;
-    font-weight: 400;
-    color: #6c757d;
+    gap: 4px;
+    border-bottom: 1px solid #DEE2E6;
+}
+.projetos .projetos-title div{
+    color:#273644;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+}
+/*projetos cards*/
+.projetos-cards{
+    display: flex;
+    flex-flow: row wrap;
+    width: 1200px;
+    gap: 30px;
+}
+.projetos-cards .card-1, .card-2, .card-5, .card-6{
+    display: flex;
+    width: 270px;
+    min-height: 284px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+.projetos-cards .card-3, .card-4, .card-7, .card-8 {
+    display: flex;
+    width: 270px;
+    min-height: 284px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px solid #FFC107;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+/*footer*/
+footer{
+    display: flex;
+    width: 1167px;
+    margin-top: 106px;
+    padding: 32px 0px 16px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-top: 1px solid #DEE2E6;
+}
+footer p{
+    color: #6C757D;
     font-size: 16px;
-    letter-spacing: 0;
-    line-height: 22.4px;
-  }
-  
+    font-weight: 400;
+    line-height: 120%;
+}
