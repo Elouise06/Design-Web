@@ -1,8 +1,6 @@
 .AWE-FLUXO-DE-JOBS {
     background-color: #fafafa;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
     width: 100%;
   }
   
@@ -10,7 +8,6 @@
     background-color: #fafafa;
     width: 1440px;
     height: 1394px;
-    position: relative;
   }
   
   .AWE-FLUXO-DE-JOBS .name {
