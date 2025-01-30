@@ -5,9 +5,18 @@ body {
     margin: 0;
     padding-top: 60px;
     font-family: "Lato";
-    background-color: aquamarine;
+    background-color: #FAFAFA;
+}
+
+.flex {
+    display: flex;
 }
 
 a {
     text-decoration: none;
+}
+@media (max-width:600px) {
+    .AWE-FLUXO-DE-JOBS {
+        flex-direction:column;
+    }
 }
