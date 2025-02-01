@@ -1,0 +1,45 @@
+.historia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.historia div p{
+    color: #C11616;
+}
+.historia div div{
+    border: 1px solid #C11616;
+    width: 60px; 
+    margin-left: 24px;
+    margin-top: 14px; 
+}
+.historia div{
+    padding: 0.10%;
+}
+
+.historia .menu {
+    display: flex;
+    padding-left: 40%;
+}
+.historia .menu ul li {
+    padding: 6px;
+
+}
+.historia .menu ul li a {
+    color: #3C4B58;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+footer {
+    padding: 0 0 0 1536px;
+    background: #EFF2F7;
+    height: 52px;
+    max-width: 100%;
+
+}
+footer .img {
+    display: flex;
+    padding-top: 14px;
+    margin-left: -787px;
+}
