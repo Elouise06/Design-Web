@@ -6,8 +6,11 @@ body {
     padding-top: 60px;
     font-family: "Lato";
     background-color: #FAFAFA;
+    max-width: 100%
 }
-
+.AWE-FLUXO-DE-JOBS{
+    max-width: 100%;
+}
 .flex {
     display: flex;
 }
