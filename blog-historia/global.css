@@ -1,4 +1,7 @@
 body{
+    font-family: Inter;
+}
+.blog-historia{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,10 +9,7 @@ body{
     padding-top: 60px;
     font-family: Inter;
     background-color: #ffffff;
-    max-width: 100%
-}
-.blog-historia{
-    max-width: 100%;
+    width: 100%
 }
 a{
     text-decoration: none;
