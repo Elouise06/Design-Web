@@ -2,6 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .historia div p{
     color: #C11616;
@@ -18,7 +20,6 @@
 
 .historia .menu {
     display: flex;
-    padding-left: 40%;
 }
 .historia .menu ul li {
     padding: 6px;
@@ -40,4 +41,5 @@ footer {
 footer .img {
     display: flex;
     padding-top: 14px;
-}d
+    justify-content: center;
+}
