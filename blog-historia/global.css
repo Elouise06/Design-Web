@@ -1,4 +1,5 @@
 body{
+    
     font-family: Inter;
 }
 .blog-historia{
@@ -21,4 +22,12 @@ li{
     .blog-historia{
         flex-direction:column;
     }
+}
+h3{
+    display: flex;
+    justify-content: center;
+    color: #EB5151;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
 }
