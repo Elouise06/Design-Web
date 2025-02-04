@@ -1,8 +1,9 @@
-body{
-    
+body {
+
     font-family: Inter;
 }
-.blog-historia{
+
+.blog-historia {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,22 +13,48 @@ body{
     background-color: #ffffff;
     width: 100%
 }
-a{
+
+a {
     text-decoration: none;
 }
-li{
+
+li {
     list-style: none;
 }
+
 @media (max-width:568px) {
-    .blog-historia{
-        flex-direction:column;
+    .blog-historia {
+        flex-direction: column;
     }
 }
-h3{
-    display: flex;
-    justify-content: center;
+
+h3 {
     color: #EB5151;
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
+}
+.card p{
+    display: flex;
+    width: 200px;
+}
+
+h4 {
+    color: #EB5151;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+i {
+    color: #8D9AA6;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300;
+}
+.line{
+    border: 1px solid #EB5151;
+    width: 239px;
 }

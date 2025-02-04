@@ -8,19 +8,21 @@
 .series a {
     text-decoration: underline;
 }
-.series .cards{
+
+.series .cards {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
 }
-.series .card{
+
+.series .card {
     width: 280px;
     height: 260px;
     border: 1px solid #EB5151;
     border-radius: 5px;
     margin: 20px;
 }
+
 /*------------------------*/
 .historia {
     display: flex;
@@ -28,6 +30,7 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 160px;
 }
 
 .historia div p {
