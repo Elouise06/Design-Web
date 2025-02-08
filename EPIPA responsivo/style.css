@@ -24,3 +24,9 @@ ul li {
 ul li:hover {
     font-weight: 900;
 }
+
+footer{
+    background: var(--Linear, linear-gradient(130deg, #0D3F82 23.84%, #001736 73.02%));
+    width: 1419px;
+    padding: 50px;
+}
