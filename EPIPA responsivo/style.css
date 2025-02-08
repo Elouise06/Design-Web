@@ -30,3 +30,9 @@ footer{
     width: 1419px;
     padding: 50px;
 }
+
+.informacoes{
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+}
