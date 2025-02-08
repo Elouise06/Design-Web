@@ -5,8 +5,17 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     background-color: rgb(255, 255, 255);
+    margin: 0;
 }
 
 ul li{
     list-style: none;
+}
+
+.flex{
+    display: flex;
+}
+
+.color{
+    color: #ffff;
 }
