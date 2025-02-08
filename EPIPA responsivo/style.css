@@ -1,0 +1,28 @@
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+nav img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+.icon img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.social img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.telegram img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
