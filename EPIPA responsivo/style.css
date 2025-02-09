@@ -1,38 +1,336 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+.full-width-bg {
+    width: 100%;
+    background-color: #004A99;
+    /* Cor de fundo do header e footer */
+}
+
+.header-line {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+
 header {
-    background-color: #203C86;
-    flex-direction: row;
-    flex-wrap: wrap;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+header nav li {
+    margin-left: 20px;
+    position: relative;
+    padding-bottom: 5px;
+    /* Espaço para a linha amarela */
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header nav li::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
     width: 100%;
-    height: 114px;
+    height: 2px;
+    background-color: #FFDA63;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
 }
 
-.mini-logo {
-    margin-left: 200px;
-    padding: 3%;
+header nav li:hover::after {
+    transform: scaleX(1);
 }
 
-ul{
-    margin-top: 60px;
-    align-items: flex-start;
-    gap: 43px;
+.social-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80%;
+    margin: 5px auto 0;
 }
 
-ul li {
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-ul li:hover {
-    font-weight: 900;
-}
-
-footer{
-    background: var(--Linear, linear-gradient(130deg, #0D3F82 23.84%, #001736 73.02%));
-    width: 1419px;
-    padding: 50px;
+.social-icons a {
+    color: #fff;
+    margin-left: 10px;
+    font-size: 1.2em;
+    transition: color 0.3s;
 }
 
-.informacoes{
-    width: 100%;
+.social-icons a:hover {
+    color: #ddd;
+}
+
+.logo-sobre {
+    text-align: center;
+}
+
+.logo-sobre img {
+    width: 50%;
+    height: auto;
+}
+
+/* Seção Sobre */
+#sobre {
+    padding: 50px 0;
+    text-align: left;
+    /* Alinha o texto à esquerda */
+}
+
+#sobre .container {
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
+    /* Alinha os itens à esquerda */
+}
+
+#sobre h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#sobre p {
+    font-size: 1.1em;
+    line-height: 1.6em;
+    margin-bottom: 30px;
+}
+
+/* Seção Descobrimos */
+#descobrimos {
+    padding: 50px 0;
+}
+
+#descobrimos .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#descobrimos div {
+    width: 45%;
+    text-align: left;
+    /* Alinha o texto à esquerda */
+}
+
+#descobrimos img {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    /* Adiciona a borda sutil */
+}
+
+#descobrimos p.credits {
+    font-size: 0.8em;
+    color: #777;
+    margin-top: 5px;
+}
+
+/* Seção Praias */
+#praias {
+    padding: 50px 0;
+    text-align: center;
+    background: #f4f4f4;
+}
+
+#praias h3 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+#praias .praias-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+#praias .praia {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#praias .praia img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+#praias .praia:hover img {
+    transform: scale(1.05);
+}
+
+#praias .praia p {
+    padding: 10px;
+    font-size: 0.9em;
+    text-align: left;
+}
+
+/* Footer */
+footer {
+    color: #fff;
+    padding: 30px 0;
+    /* Alinha o texto à esquerda */
+}
+
+footer .container {
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr 3fr 2fr;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    margin-bottom: 5px;
+}
+
+footer .newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Footer Logos and Social Icons */
+footer .footer-logo {
+    text-align: left;
+}
+
+footer .footer-logo img {
+    width: 50%;
+    height: auto;
+}
+
+.footer-social-icons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.footer-social-icons a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.footer-social-icons a:hover {
+    color: #ddd;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 5px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ddd;
+}
+
+/* Telegram Button */
+.telegram-button {
+    background-color: #2AABEE;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.telegram-button:hover {
+    background-color: #1e88e5;
+}
+
+/* Quote Styles */
+#sobre .quote {
+    font-style: italic;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+#sobre .author {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Newsletter Styles */
+.newsletter {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+    /* Alinha o texto à esquerda */
+}
+
+.newsletter p {
+    margin-bottom: 10px;
 }

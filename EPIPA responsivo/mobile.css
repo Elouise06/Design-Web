@@ -1,0 +1,55 @@
+/* Estilos para telas menores */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    /* Header */
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav li {
+        margin: 10px 0;
+    }
+
+    /* Seção Descobrimos */
+    #descobrimos .container {
+        flex-direction: column;
+    }
+
+    #descobrimos div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Footer */
+    footer .container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    footer .footer-social-icons {
+        justify-content: center;
+    }
+
+    footer .newsletter {
+        text-align: center;
+    }
+}
