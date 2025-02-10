@@ -1,96 +1,148 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="blog-historia/global.css">
-    <link rel="stylesheet" href="blog-historia/style.css">
-
-    <title>Blog-historia</title>
+    <title>A História</title>
+    <link rel="stylesheet" href="../Design-Web/blog-historia/style.css">
 </head>
 
 <body>
-    <div class="Blog-historia">
-        <header></header>
-        <main>
-            <section></section>
-            <section></section>
-            <section></section>
-            <section class="series">
-                <div class="title">
-                    <h1>Séries de posts</h1>
-                    <p>Você pode acompanhar as histórias que são publicadas em formato de coletâneas.</p>
-                </div>
-                <div class="cards">
-                    <div class="card">
-                        <h3>Última publicação - <strong>21.jun.2021</strong></h3>
-                        <p>A Escola e a estupidez – como um falso, um atoleimado e uma gama de outras coisas fizeram da
-                            futrica método</p>
-                        <div class="line"></div>
-                        <h4>escola da estupidez <i>(10 publicações)</i></h4>
-                    </div>
-                    <div class="card">
-                        <h3>Última publicação - <strong>20.ago.2020</strong></h3>
-                        <p>Entrevista com Luiz Alves de Melo</p>
-                        <div class="line"></div>
-                        <h4>nomeação <i>(2 publicações)</i></h4>
-                    </div>
-                    <div class="card">
-                        <h3>Última publicação - <strong>20.ago.2020</strong></h3>
-                        <p>A tabelinha Almério-Amador</p>
-                        <div class="line"></div>
-                        <h4>consenso do bem <i>(2 publicações)</i></h4>
-                    </div>
-                    <div class="card">
-                        <h3>Última publicação - <strong>20.ago.2020</strong></h3>
-                        <p>A zezoficação do Protagonista (ou Quando Zorba derramou lágrimas)</p>
-                        <div class="line"></div>
-                        <h4>consenso do bem <i>(2 publicações)</i></h4>
-                    </div>
-                </div>
-                <div class="acessar">
-                    <a href="#">Acessar todas as coletâneas</a>
-                    <img src="blog-historia/imagens/seta.svg" alt="seta">
-                </div>
-            </section>
-            <section class="historia">
-                <div>
-                    <img src="blog-historia/imagens/footervector.svg" alt="Logo footer">
-                    <div></div>
-                    <p>por <strong>Sérgio Trindade</strong></p>
-                </div>
-                <div class="menu">
-                    <ul>
-                        <li>
-                            <a href="#">O BLOG</a>
-                        </li>
-                        <li>
-                            <a href="#">DOWNLOADS</a>
-                        </li>
-                        <li>
-                            <a href="#">VÍDEOS</a>
-                        </li>
-                        <li>
-                            <a href="#">FOTOS</a>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </main>
-        <footer>
-            <div class="img">
-                <img src="blog-historia/imagens/AWE.svg" alt="AWE logo">
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="#">história</a>
+                <span>está nos detalhes</span>
+                <p>por Sérgio Trindade</p>
             </div>
-        </footer>
-    </div>
+            <div class="header-links">
+                <input type="search" placeholder="search">
+                <a href="#">O Blog</a>
+                <a href="#">Downloads</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="featured-post">
+            <div class="featured-post-container">
+                <h1>Simão celerado: do nascimento à morte da democracia (VI) - o caso Alan Gideon</h1>
+                <p class="author">por Sérgio Trindade foi publicado em 16 out 2018</p>
+                <p>Filho de Jacinto de Souza Rojão, um dos mais queridos funcionários da Escola
+                    Federal de Educação, Ciência, Filosofia e Tecnologia do Rio das Mortes
+                    (EFECFTRM), Alan Gideon assumiu vaga de concurso, como administrador...</p>
+                <a href="#">Continue lendo...</a>
+            </div>
+        </section>
+
+        <section class="categories">
+            <h2>Principais categorias</h2>
+            <div class="categories-container">
+                <a href="#">Contos e Crônicas</a>
+                <a href="#">Cangaço</a>
+                <a href="#">Brasil</a>
+                <a href="#">Economia</a>
+                <a href="#">História do Brasil</a>
+                <a href="#">Ver todas as categorias</a>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Galeria de fotos</h2>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Imagem da galeria">
+                    <p>Carnaval de máscaras em Veneza consolida uma tradição histórica.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Imagem da galeria">
+                    <p>As máscaras deram o tom em diversos carnavais pelo mundo.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Imagem da galeria">
+                    <p>Em Olinda foi muito...</p>
+                </div>
+            </div>
+            <a href="#">mais fotos</a>
+        </section>
+
+        <section class="videos">
+            <h2>& Vídeos</h2>
+            <div class="videos-container">
+                <div class="video-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Vídeo">
+                    <p>No Rio são as máscaras que deram o tom nesse carnaval de pandemia. Os foliões assumiram suas
+                        máscaras.</p>
+                </div>
+                <div class="video-item">
+                    <img src="https://via.placeholder.com/300x200" alt="Vídeo">
+                    <p>A seu modo, na China carnaval manteve a...</p>
+                </div>
+            </div>
+            <a href="#">mais vídeos</a>
+        </section>
+
+        <section class="recent-posts">
+            <h2>Últimos posts</h2>
+            <div class="recent-posts-container">
+                <a href="#">Filho de Jacinto de Souza Rojão, um dos mais queridos funcionários da Escola Federal de
+                    Educação, Ciência, Filosofia e Tecnologia do Rio das Mortes</a>
+                <a href="#">Filho de Jacinto de Souza Rojão, um dos mais queridos funcionários da Escola Federal de
+                    Educação, Ciência, Filosofia e Tecnologia do Rio das Mortes</a>
+                <a href="#">Filho de Jacinto de Souza Rojão, um dos mais queridos funcionários da Escola Federal de
+                    Educação, Ciência, Filosofia e Tecnologia do Rio das Mortes</a>
+                <a href="#">Filho de Jacinto de Souza Rojão, um dos mais queridos funcionários da Escola Federal de
+                    Educação, Ciência, Filosofia e Tecnologia do Rio das Mortes</a>
+            </div>
+            <a href="#">Ver todas as notícias</a>
+        </section>
+
+        <section class="series-posts">
+            <h2>Séries de posts</h2>
+            <p>Você pode acompanhar as histórias que são publicadas em formato de coletâneas.</p>
+            <div class="series-posts-container">
+                <div class="series-item">
+                    <p>Última publicação - 21 jun 2021</p>
+                    <a href="#">A Escola e a estupidez - como um falso, um atoleimado e uma gama de outras coisas
+                        fizeram da futrica método</a>
+                    <p>escola da estupidez (12 publicações)</p>
+                </div>
+                <div class="series-item">
+                    <p>Última publicação - 21 jun 2021</p>
+                    <a href="#">Entrevista com Luiz Alves de Melo</a>
+                    <p>Nenhum (2 publicações)</p>
+                </div>
+                <div class="series-item">
+                    <p>Última publicação - 20 ago. 2020</p>
+                    <a href="#">A tabelinha Almério-Amador</a>
+                    <p>Consenso do bem (2 publicações)</p>
+                </div>
+                <div class="series-item">
+                    <p>Última publicação - 20 ago. 2020</p>
+                    <a href="#">A zezoficação do Protagonista (ou Quando Zorba derramou lágrimas)</a>
+                    <p>Consenso do bem (2 publicações)</p>
+                </div>
+            </div>
+            <a href="#">Acessar todas as coletâneas</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="logo">
+                <a href="#">história</a>
+                <span>está nos detalhes</span>
+                <p>por Sérgio Trindade</p>
+            </div>
+            <div class="footer-links">
+                <a href="#">O Blog</a>
+                <a href="#">Downloads</a>
+                <a href="#">Vídeos</a>
+                <a href="#">Fotos</a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
