@@ -10,7 +10,7 @@
         align-items: center;
     }
 
-    header .container {
+    .header-container {
         flex-direction: column;
         text-align: center;
     }
@@ -25,19 +25,28 @@
     }
 
     /* Seção Descobrimos */
-    #descobrimos .container {
+    .descobrimos-container {
         flex-direction: column;
     }
 
-    #descobrimos div {
+    .descobrimos-text,
+    .descobrimos-image {
         width: 100%;
         margin-bottom: 20px;
     }
 
     /* Footer */
-    footer .container {
-        grid-template-columns: 1fr;
+    .footer-container {
+        flex-direction: column;
         text-align: center;
+    }
+
+    .footer-logo,
+    .footer-links,
+    .footer-text,
+    .newsletter {
+        width: 100%;
+        margin-bottom: 20px;
     }
 
     .social-icons {
@@ -45,11 +54,11 @@
         margin-bottom: 10px;
     }
 
-    footer .footer-social-icons {
+    .footer-social-icons {
         justify-content: center;
     }
 
-    footer .newsletter {
+    .newsletter {
         text-align: center;
     }
 }
