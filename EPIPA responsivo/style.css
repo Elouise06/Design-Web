@@ -315,12 +315,3 @@ footer {
     display: flex;
     align-items: flex-start;
 }
-
-.SIGA p{
-    font-size: 12px;
-    font-weight: 200;
-}
-.SIGA{
-    position: relative;
-    left: 445px;
-}
