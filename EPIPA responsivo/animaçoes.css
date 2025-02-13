@@ -1,0 +1,31 @@
+
+/* Animação das imagens */
+img {
+    transition: transform 0.4s ease-in-out;
+}
+
+.card-image img:hover, .conteudo-2 figure img:hover {
+    transform: scale(1.1);
+}
+
+/*animação ao carregar a página */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.container, .conteudo-1, .conteudo-2, .conteudo-3, .fotos, footer {
+    animation: fadeIn 1s ease-in-out;
+}
+
+
+header menu li:hover .barra,
+header menu li.active .barra { /* Para manter a barra no item ativo */
+    width: 100%;
+}

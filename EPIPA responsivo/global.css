@@ -1,25 +1,125 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-body{
-    font-family: "Lato", sans-serif;
-    color: #ffff;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-.flex{
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+.flex {
     display: flex;
 }
 
-.color-blue{
+.coluna {
+    flex-direction: column;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1400px;
+    width: 100%;
+}
+
+.container-menor {
+    max-width: 800px;
+}
+
+.azul {
     color: #2648A1;
 }
 
-.color-yellow{
-    color: #FFC82C;
+.centralizar {
+    justify-content: center;
+    align-items: center;
 }
 
-ul li{
-    list-style: none;
+.centralizar-horizontal {
+    justify-content: center;
 }
-a{
-    color: #ffff;
-    text-decoration: none;
+
+.centralizar-vertical {
+    align-items: center;
+}
+.alinhar-extremidades {
+    justify-content: space-between;
+}
+
+.gap {
+    gap: 10px;
+}
+
+.alinhar-direita {
+    text-align: right;
+}
+
+.alinhar-direita-2 {
+    justify-content: flex-end;
+}
+
+/*Parte responsiva*/
+
+@media (max-width:556px) {
+
+    header .section-top,
+    header .linha-1,
+    header nav {
+        display: none;
+    }
+
+    header {
+        height: 55px;
+    }
+
+    header .config span {
+        display: block;
+    }
+
+    .container-menor {
+        padding: 20px;
+    }
+
+    .container .fotos {
+        width: 100%;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .conteudo-1 figure {
+        padding-right: 20px;
+    }
+
+    .container .conteudo-2 {
+        flex-wrap: wrap-reverse;
+        width: 100%;
+    }
+
+    .container img {
+        width: 100%;
+    }
+
+    footer {
+        padding: 60px 0;
+    }
+
+    footer .section-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    footer .right {
+        max-height: 150px;
+    }
+
+    figure {
+        margin: 0;
+    }
+}
+
+
+@media (min-width: 556px) {
+    header .config {
+        display: none;
+    }
 }
